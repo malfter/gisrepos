@@ -1,0 +1,288 @@
+
+**AQUASTAT**
+
+http://www.fao.org/nr/water/aquastat/main/index.stm
+
+Information on water at the Food and Agriculture Organization of the United
+Nations (FAO).
+
+\vspace{5mm}
+
+**Conservation Science Data and Tools**
+
+https://www.worldwildlife.org/pages/conservation-science-data-and-tools
+
+Set of tools and data associated to diversity conservation at the World Wildlife
+Fund (WWF).
+
+\vspace{5mm}
+
+**Copernicus Open Access Hub**
+
+https://scihub.copernicus.eu/dhus/#/home
+
+Access to ESA Sentinel 1, 2, and 3 data sets.
+
+\vspace{5mm}
+
+**Climatic Research Unit Data**
+
+https://crudata.uea.ac.uk/cru/data/hrg/
+
+Global climate data (grid). Includes Google Earth Interface for temperature and precipitation data.
+
+\vspace{5mm}
+
+**Environmental Data Explorer**
+
+http://geodata.grid.unep.ch/index.php
+
+Environmental data by the United Nations Environment Programme (UNEP).
+
+\vspace{5mm}
+
+**Free GIS Data**
+
+http://freegisdata.rtwilson.com
+
+Personal link collection by Robin Wilson. Including data sets for human and physical geography and data sets for individual countries/areas.
+
+\vspace{5mm}
+
+**GEOSS Portal**
+
+http://www.geoportal.org/
+
+Global GIS database from the European Space Agency.
+
+\vspace{5mm}
+
+
+**GISGeography**
+
+http://gisgeography.com
+
+Alternative for accessing GIS data sets. Including brief tutorials on how to download data sets.
+
+\vspace{5mm}
+
+**Global Administrative Areas**
+
+https://gadm.org/index.html
+
+Administrative units worldwide.
+
+\vspace{5mm}
+
+**Global Runoff Data Base**
+
+https://www.bafg.de/GRDC/EN/Home/homepage_node.html
+
+Runoff data from the Global Runoff Data Centre (GRDC).
+
+\vspace{5mm}
+
+**Global Surface Water Explorer**
+
+https://global-surface-water.appspot.com/
+
+Global or 10$^{\circ}$x10$^{\circ}$ tiles Landsat imagery covering location and
+temporal distribution of water surfaces over the past 32 years, including
+information on occurrence, change, seasonality, recurrence, transitions and
+maximum extent.
+
+\vspace{5mm}
+
+
+**GlobCover**
+
+http://due.esrin.esa.int/page_globcover.php
+
+Worldwide information on land cover features. Land cover maps available for periods December 2004 - June 2006 and January - December 2009.
+
+\vspace{5mm}
+
+**GLOBELAND30**
+
+http://www.globallandcover.com/GLC30Download/index.aspx
+
+Global land cover data (30 m spatial resolution).
+
+\vspace{5mm}
+
+**Harmonized World Soil Database**
+
+http://webarchive.iiasa.ac.at/Research/LUC/External-World-soil-database/HTML/
+
+Spatial data of soil classification with worldwide coverage. Including supplementary data like terrain and land cover data.
+
+\vspace{5mm}
+
+**Humanitarian Data Exchange**
+
+https://data.humdata.org
+
+Data required for humanitarian purposes.
+
+\vspace{5mm}
+
+**HydroSHEDS**
+
+http://hydrosheds.org
+
+Hydrological data and maps based on Shuttle Elevation Derivatives at multiple scales.
+
+\vspace{5mm}
+
+**ISRIC World Soil Information**
+
+http://www.isric.org/explore
+
+https://www.soilgrids.org
+
+Access to soil profiles and soil grids at the International Soil Reference and Information Centre (ISRIC).
+
+\vspace{5mm}
+
+**MapCruzin**
+
+https://mapcruzin.com/download-free-arcgis-shapefiles.htm
+
+Free GIS maps, ArcGIS shapefiles and geospatial data.
+
+\vspace{5mm}
+
+**Map East Africa**
+
+http://mapeastafrica.com
+
+Collection of GIS information (shapefiles and ArcGIS layer packages) for East African countries with a social and policitcal focus on Sudan and South Sundan, including a conflict mapping approach.
+
+\vspace{5mm}
+
+**NASA Global Change Master Directory**
+
+https://gcmd.nasa.gov
+
+Data sets of various global change related topics.
+
+\vspace{5mm}
+
+**NASA Earth Observations**
+
+https://neo.sci.gsfc.nasa.gov
+
+NASA Earth Observations (NEO) data sets of various categories.
+
+\vspace{5mm}
+
+**Natural Earth**
+
+http://www.naturalearthdata.com
+
+Global physical and cultural/political information in three different scales.
+
+\vspace{5mm}
+
+**openAFRICA**
+
+https://africaopendata.org
+
+Volunteer driven open data platform for Africa.
+
+\vspace{5mm}
+
+**OpenStreetMap**
+
+https://www.openstreetmap.org
+
+Open access to vectors of roads and further features.
+
+\vspace{5mm}
+
+**Potential Natural Vegetation of Eastern Africa**
+
+http://vegetationmap4africa.org/Home.html
+
+Maps in various formats of the VECEA project (Vegetaion and Climate Change in Eastern Africa) for eight eastern and southern African countries.
+
+\vspace{5mm}
+
+**Remote Sensing Biodiversity**
+
+http://remote-sensing-biodiversity.org
+
+Community webpage for remote sensing, biodiversity and conservation. Contains GIS data, terrestrial and marine remote sensing data and visualisation, software and training resources.
+
+\vspace{5mm}
+
+**SRTM 90m Digital Elevation Data**
+
+http://srtm.csi.cgiar.org
+
+Digital elevation data from the Shuttle Radar Topography Mission (SRTM).
+
+\vspace{5mm}
+
+**USGS**
+
+https://www.usgs.gov/products/data-and-tools/overview
+
+https://earthexplorer.usgs.gov
+
+https://gdex.cr.usgs.gov/gdex/
+
+Data provided by the United States Geological Survey (USGS), including various topics.
+
+\vspace{5mm}
+
+**WATCH**
+
+http://www.eu-watch.org/data_availability
+
+http://www.waterandclimatechange.eu/
+
+https://eip.ceh.ac.uk/
+
+Data sets for regional and global studies on climate and water. Accessible via CEH (Centre for Ecology and Hydrology) gateway catalogue. Including maps displaying WATCH topics "Rainfall", "Freshwater", "Evaporation" and "Land".
+
+\vspace{5mm}
+
+**WETechData**
+
+http://www.2w2e.com
+
+Climate Change Data (optimized for SWAT model).
+
+\vspace{5mm}
+
+**wikiloc**
+
+https://de.wikiloc.com
+
+Repository for upload and download of trachlogs (requires registration).
+
+\vspace{5mm}
+
+**World Cities Database**
+
+https://simplemaps.com/data/world-cities
+
+Table with population of cities in the world including their coordinates.
+
+\vspace{5mm}
+
+**WorldClim**
+
+http://www.worldclim.org
+
+Results of the WroldClim model for global climate data (see also Hijmans et al. 2005).
+
+\vspace{5mm}
+
+**World Resources Institute**
+
+http://data sets.wri.org
+
+Worldwide data sets sorted by topics at the World Resource Institute (WRI).
+
