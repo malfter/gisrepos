@@ -1,0 +1,27 @@
+Package: gisrepos
+Version: 0.1.0.9001
+Encoding: UTF-8
+Title: Repositories of Spatial Data Sets
+Authors@R: c(
+    person("Miguel", "Alvarez", email="kamapu78@gmail.com",
+        role=c("aut","cre"), comment=c(ORCID="0000-0003-1500-1834")),
+    person("Lukas", "Trübenbach"),
+    person("Kristian","Näschen")
+    )
+Depends:
+    R(>= 3.5.0)
+Imports:
+    ODB,
+    rmarkdown,
+    utils,
+    xlsx
+Suggests:
+    devtools,
+    roxygen2
+LazyData: true
+Description: A collection of On-Line repositories for GIS data sets.
+License: GPL (>= 2)
+Roxygen: list(markdown = TRUE)
+URL: https://github.com/kamapu/gisrepos
+BugReports: https://github.com/kamapu/gisrepos/issues
+RoxygenNote: 7.0.2
