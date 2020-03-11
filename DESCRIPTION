@@ -5,8 +5,8 @@ Title: Repositories of Spatial Data Sets
 Authors@R: c(
     person("Miguel", "Alvarez", email="kamapu78@gmail.com",
         role=c("aut","cre"), comment=c(ORCID="0000-0003-1500-1834")),
-    person("Lukas", "Trübenbach"),
-    person("Kristian","Näschen")
+    person("Lukas", "Trübenbach", role="ctb"),
+    person("Kristian","Näschen", role="ctb")
     )
 Depends:
     R(>= 3.5.0)

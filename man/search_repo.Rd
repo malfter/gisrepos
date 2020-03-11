@@ -4,17 +4,35 @@
 \alias{search_repo}
 \title{Search GIS repositories}
 \usage{
-search_repo(topic, db = .gisrepos, filename = ".temp", ...)
+search_repo(
+  topic,
+  db = .gisrepos,
+  output = c("html", "list"),
+  filename = ".temp",
+  date_format = "\%d-\%m-\%Y",
+  keep_rmd = FALSE
+)
 }
 \arguments{
 \item{topic}{A character value to be matched in the content of the database.}
 
 \item{db}{Database used for search (by default pre-installed '.gisrepos').}
 
-\item{filename}{A character value with the name of the ouput html file
-(without file extension).}
+\item{output}{A character value indicating whether the output should be a
+html file or a list.}
 
-\item{...}{Further arguments.}
+\item{filename}{A character value with the name of the ouput html file
+(without file extension), used only for \code{output="html"}.}
+
+\item{date_format}{A character value indicating the format to be used for
+date in html document (passed to \code{\link[=format]{format()}}).}
+
+\item{keep_rmd}{A logical value indicating whether the Rmd file should be
+kept or deleted (used only for \code{output="html"}).}
+}
+\value{
+Either a html file (\code{output="html"}) or a list (\code{output="list"}) with
+selected data sets.
 }
 \description{
 This function retrieves a display of data sets matching a 'topic' by using

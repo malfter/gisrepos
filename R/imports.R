@@ -1,4 +1,4 @@
-#' @importFrom utils browseURL
+#' @importFrom utils browseURL globalVariables
 #' @importFrom rmarkdown render
 #' 
 NULL

@@ -3,3 +3,4 @@
 export(search_repo)
 importFrom(rmarkdown,render)
 importFrom(utils,browseURL)
+importFrom(utils,globalVariables)
