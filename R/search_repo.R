@@ -22,7 +22,10 @@
 #' selected data sets.
 #' 
 #' @examples 
+#' ## Write a html
 #' search_repo("temp")
+#' ## Get a list
+#' temp_repos <- search_repo("temp", output="list")
 #' 
 #' @export search_repo
 #' 
@@ -42,9 +45,6 @@ search_repo <- function(topic, db=.gisrepos, output=c("html","list"),
 				date_format=date_format, keep_rmd=keep_rmd)
 		view_html(paste0(filename, ".html"))
 	}
-	if(output == 2) {
-		db$data_links <- with(db, data_links[data_links$id %in% data_sets$id,])
-		db$links <- with(db, links[links$link_id %in% data_links$link_id,])
-		return(db)
-	}
+	if(output == 2)
+		return(subset_db(db, 1:nrow(db$data_sets)))
 }
