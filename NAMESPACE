@@ -3,6 +3,7 @@
 export(browse_repos)
 export(search_repo)
 export(subset_db)
+importFrom(readODS,read_ods)
 importFrom(rmarkdown,render)
 importFrom(utils,browseURL)
 importFrom(utils,globalVariables)

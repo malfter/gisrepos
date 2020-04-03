@@ -4,7 +4,7 @@
 \alias{data2df}
 \title{Convert data set list into data.frame}
 \usage{
-data2df(x)
+data2df(x, sep = ";\\n")
 }
 \arguments{
 \item{x}{A list with the structure of object \code{.gisrepos}.}

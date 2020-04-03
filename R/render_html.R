@@ -26,7 +26,7 @@ render_html <- function(filename=".temp", db=.gisrepos,
 	for(i in 1:nrow(db$data_sets)) {
 		Body[[i]] <- with(db$data_sets,
 				paste0("## ", name[i], "\n\n", description[i], "\n"))
-		link <- with(db, data_links[data_links$id == data_sets$id[i],
+		link <- with(db, fk_links[fk_links$id == data_sets$id[i],
 						"link_id"])
 		link <- with(db$links, paste0(url[link_id %in% link], collapse="\n\n"))
 		Body[[i]] <- paste0(Body[[i]], "\n", link, "\n\n<br/>")

@@ -22,9 +22,12 @@
 subset_db <- function(db, idx) {
 	db <- with(db, {
 				data_sets <- data_sets[idx,]
-				data_links <- data_links[data_links$id %in% data_sets$id,]
-				links <- links[links$link_id %in% data_links$link_id,]
-				list(data_sets=data_sets, data_links=data_links, links=links)
+				fk_links <- fk_links[fk_links$id %in% data_sets$id,]
+				fk_keywords <- fk_keywords[fk_keywords$id %in% data_sets$id,]
+				links <- links[links$link_id %in% fk_links$link_id,]
+				keywords <- keywords[keywords$kword_id %in% fk_keywords$kword_id,]
+				list(data_sets=data_sets, links=links, keywords=keywords,
+						fk_links=fk_links, fk_keywords=fk_keywords)
 			})
 	return(db)
 }

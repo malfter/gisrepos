@@ -6,4 +6,8 @@
 library(devtools)
 install_github("kamapu/gisrepos")
 
-search_data("temp")
+library(gisrepos)
+search_repo("temp")
+
+Temp <- search_repo("temp", output="list")
+browse_repos(Temp)

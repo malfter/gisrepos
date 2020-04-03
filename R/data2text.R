@@ -10,6 +10,6 @@
 #' 
 data2text <- function(x) {
 	x <- data2df(x)
-	x$description <- with(x, paste(name, description, url, sep=";"))
+	x$description <- with(x, paste(name, description, url, keywords))
 	return(x[,c("id", "description")])
 }

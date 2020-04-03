@@ -35,7 +35,7 @@ search_repo <- function(topic, db=.gisrepos, output=c("html","list"),
 	Sel <- Sel[grepl(topic, Sel$description, ignore.case=TRUE),"id"]
 	if(length(Sel) == 0)
 		stop("No matched data sets.")
-	db$data_sets <- with(db, data_sets[data_sets$id %in% Sel,])
+	db <- subset_db(db, Sel)
 	output <- pmatch(output[1], c("html","list"))
 	if(!output %in% c(1,2))
 		stop("Invalid value for argument 'output'.")
@@ -46,5 +46,5 @@ search_repo <- function(topic, db=.gisrepos, output=c("html","list"),
 		view_html(paste0(filename, ".html"))
 	}
 	if(output == 2)
-		return(subset_db(db, 1:nrow(db$data_sets)))
+		return(db)
 }
