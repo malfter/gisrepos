@@ -7,7 +7,8 @@ Authors@R: c(
         role=c("aut","cre"), comment=c(ORCID="0000-0003-1500-1834")),
     person("Adrian","Almoradie", role="ctb"),
     person("Kristian","Näschen", role="ctb"),
-    person("Lukas", "Trübenbach", role="ctb")
+    person("Lukas", "Trübenbach", role="ctb"),
+    person("Markus", "Alfter", role="ctb")
     )
 Depends:
     R(>= 3.5.0)
@@ -25,4 +26,4 @@ License: GPL (>= 2)
 Roxygen: list(markdown = TRUE)
 URL: https://github.com/kamapu/gisrepos
 BugReports: https://github.com/kamapu/gisrepos/issues
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
