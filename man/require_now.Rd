@@ -15,7 +15,8 @@ updated or not (done by \code{\link[=update.packages]{update.packages()}}).}
 \item{...}{Further arguments passed to \code{\link[=install.packages]{install.packages()}}.}
 }
 \description{
-A list of packages will be compared with the installed
+A list of packages will be compared with the installed ones and if missing,
+installed. These packages will be also loaded in the current session.
 This function is a wrapper of \code{\link[=update.packages]{update.packages()}} and \code{\link[=install.packages]{install.packages()}}.
 }
 \author{

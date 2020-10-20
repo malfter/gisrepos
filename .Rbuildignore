@@ -5,6 +5,7 @@
 ^\.project$
 ^\.travis.yml$
 ^codecov\.yml$
+^\.temp.html$
 ^R2$
 ^data-raw$
 ^build-pkg$
