@@ -25,15 +25,16 @@ require_now <- function(pkgs, update=FALSE, ...) {
 	old_pkgs <- pkgs[!pkgs %in% new_pkgs]
 	# Grammatically correct message
 	if(length(old_pkgs) == 1)
-		message(paste0("The package '", old_pkgs, "' is already installed ",
+		message(paste0("The package '", old_pkgs, "' is already there ",
 						"and will not be installed now."))
 	if(length(old_pkgs) > 1)
 		message(paste0("The packages '",
 						paste(old_pkgs[1:(length(old_pkgs) - 1)],
 								collapse="', '"), "' and '",
-						old_pkgs[length(old_pkgs)], "' are already installed."))
+						old_pkgs[length(old_pkgs)], "' are already there ",
+						"and will not be installed now."))
 	if(length(new_pkgs) > 0) install.packages(new_pkgs, ...)
-	## message("Loading packages into session.")
+	# Loading packages into session
 	sapply(pkgs, require, character.only=TRUE)
 	message("DONE!")
 }
